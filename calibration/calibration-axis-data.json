@@ -1,0 +1,274 @@
+[
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 708,
+        "rateScore": -47,
+        "sevPenalty": 1042,
+        "weightedFindings": 1042
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 96,
+        "rateScore": 100,
+        "sevPenalty": 0,
+        "weightedFindings": 0
+      },
+      {
+        "axis": "components",
+        "opportunities": 15,
+        "rateScore": 47,
+        "sevPenalty": 8,
+        "weightedFindings": 8
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 2,
+        "rateScore": 0,
+        "sevPenalty": 2,
+        "weightedFindings": 2
+      }
+    ],
+    "expertScore": 35,
+    "repo": "lyse"
+  },
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 16003,
+        "rateScore": 48,
+        "sevPenalty": 8326,
+        "weightedFindings": 8326
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 393,
+        "rateScore": 100,
+        "sevPenalty": 0,
+        "weightedFindings": 0
+      },
+      {
+        "axis": "components",
+        "opportunities": 1303,
+        "rateScore": 86,
+        "sevPenalty": 178,
+        "weightedFindings": 178
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 5,
+        "rateScore": -40,
+        "sevPenalty": 7,
+        "weightedFindings": 7
+      }
+    ],
+    "expertScore": 62,
+    "repo": "cal"
+  },
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 766,
+        "rateScore": -29,
+        "sevPenalty": 990,
+        "weightedFindings": 990
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 309,
+        "rateScore": 100,
+        "sevPenalty": 0,
+        "weightedFindings": 0
+      },
+      {
+        "axis": "components",
+        "opportunities": 310,
+        "rateScore": 99,
+        "sevPenalty": 4,
+        "weightedFindings": 4
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 3,
+        "rateScore": 33,
+        "sevPenalty": 2,
+        "weightedFindings": 2
+      }
+    ],
+    "expertScore": 65,
+    "repo": "radix"
+  },
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 9068,
+        "rateScore": 88,
+        "sevPenalty": 1086,
+        "weightedFindings": 1086
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 194,
+        "rateScore": 100,
+        "sevPenalty": 0,
+        "weightedFindings": 0
+      },
+      {
+        "axis": "components",
+        "opportunities": 788,
+        "rateScore": 68,
+        "sevPenalty": 254,
+        "weightedFindings": 254
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 5,
+        "rateScore": -80,
+        "sevPenalty": 9,
+        "weightedFindings": 9
+      }
+    ],
+    "expertScore": 66,
+    "repo": "documenso"
+  },
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 18069,
+        "rateScore": 72,
+        "sevPenalty": 5038,
+        "weightedFindings": 5038
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 930,
+        "rateScore": 100,
+        "sevPenalty": 0,
+        "weightedFindings": 0
+      },
+      {
+        "axis": "components",
+        "opportunities": 2532,
+        "rateScore": 97,
+        "sevPenalty": 72,
+        "weightedFindings": 72
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 5,
+        "rateScore": -40,
+        "sevPenalty": 7,
+        "weightedFindings": 7
+      }
+    ],
+    "expertScore": 68,
+    "repo": "plane"
+  },
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 8388,
+        "rateScore": -53,
+        "sevPenalty": 12818,
+        "weightedFindings": 12818
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 151,
+        "rateScore": 100,
+        "sevPenalty": 0,
+        "weightedFindings": 0
+      },
+      {
+        "axis": "components",
+        "opportunities": 5160,
+        "rateScore": 98,
+        "sevPenalty": 114,
+        "weightedFindings": 114
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 3,
+        "rateScore": -33,
+        "sevPenalty": 4,
+        "weightedFindings": 4
+      }
+    ],
+    "expertScore": 70,
+    "repo": "twenty"
+  },
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 6283,
+        "rateScore": -16,
+        "sevPenalty": 7282,
+        "weightedFindings": 7282
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 293,
+        "rateScore": 100,
+        "sevPenalty": 0,
+        "weightedFindings": 0
+      },
+      {
+        "axis": "components",
+        "opportunities": 2029,
+        "rateScore": 95,
+        "sevPenalty": 92,
+        "weightedFindings": 92
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 5,
+        "rateScore": 0,
+        "sevPenalty": 5,
+        "weightedFindings": 5
+      }
+    ],
+    "expertScore": 78,
+    "repo": "mantine"
+  },
+  {
+    "axes": [
+      {
+        "axis": "tokens",
+        "opportunities": 33180,
+        "rateScore": 64,
+        "sevPenalty": 11942,
+        "weightedFindings": 11942
+      },
+      {
+        "axis": "a11y",
+        "opportunities": 685,
+        "rateScore": 83,
+        "sevPenalty": 116,
+        "weightedFindings": 116
+      },
+      {
+        "axis": "components",
+        "opportunities": 2019,
+        "rateScore": 99,
+        "sevPenalty": 12,
+        "weightedFindings": 12
+      },
+      {
+        "axis": "ai-surface",
+        "opportunities": 2,
+        "rateScore": 0,
+        "sevPenalty": 2,
+        "weightedFindings": 2
+      }
+    ],
+    "expertScore": 80,
+    "repo": "shadcn"
+  }
+]

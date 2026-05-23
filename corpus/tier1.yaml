@@ -1,0 +1,275 @@
+# Tier-1 corpus — audited nightly by The Bench (v0.1 MVP).
+# 20 stratified repos. See _meta.md for the stratification table + curation rationale.
+# Schema: BenchEntry from internal/bench/types.ts.
+# SHAs resolved 2026-05-23 via `git ls-remote ${url} HEAD`. Re-pin via PR when bumping.
+
+- repo: shadcn-ui/ui
+  url: https://github.com/shadcn-ui/ui
+  sha: 4a4dc8eb0fc793d8e9225e780183ad605f15d2c2
+  framework: react
+  stack: tailwind-v4
+  maturity: growing
+  tags:
+    - design-system
+    - tailwind
+    - radix
+    - typescript
+    - size:medium
+    - use-case:design-system
+
+- repo: mantinedev/mantine
+  url: https://github.com/mantinedev/mantine
+  sha: babd4ef64a41791a209bb671d10ea9e001824bb5
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - design-system
+    - emotion
+    - typescript
+    - size:large
+    - use-case:design-system
+
+- repo: mui/material-ui
+  url: https://github.com/mui/material-ui
+  sha: 3fa001f5c6a76180e37e9383b9c6064c700b26ac
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - design-system
+    - emotion
+    - material-design
+    - typescript
+    - size:large
+    - use-case:design-system
+
+- repo: chakra-ui/chakra-ui
+  url: https://github.com/chakra-ui/chakra-ui
+  sha: 155fa1388825debedcf2017b2a51b85d179fc701
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - design-system
+    - emotion
+    - typescript
+    - size:large
+    - use-case:design-system
+
+- repo: nextui-org/nextui
+  url: https://github.com/nextui-org/nextui
+  sha: 08f9c233d16cd2fdc429b3115fc59e1af9909988
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - component-library
+    - tailwind
+    - typescript
+    - size:medium
+    - use-case:component-library
+
+- repo: radix-ui/primitives
+  url: https://github.com/radix-ui/primitives
+  sha: 22473d16404bfd446305db5b6c9308aece99fdec
+  framework: react
+  stack: vanilla-css
+  maturity: mature
+  tags:
+    - design-system
+    - headless
+    - typescript
+    - size:medium
+    - use-case:design-system
+
+- repo: calcom/cal.com
+  url: https://github.com/calcom/cal.com
+  sha: 180ede28f0bddf2738933a6e60a8e80f6116d7da
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - web-app
+    - tailwind
+    - monorepo
+    - typescript
+    - size:large
+    - use-case:web-app
+
+- repo: documenso/documenso
+  url: https://github.com/documenso/documenso
+  sha: 6a20fefd7b865d1242d9abc559f81116b9d4b23d
+  framework: react
+  stack: tailwind-v3
+  maturity: early
+  tags:
+    - web-app
+    - tailwind
+    - shadcn
+    - typescript
+    - size:small
+    - use-case:web-app
+
+- repo: vercel/commerce
+  url: https://github.com/vercel/commerce
+  sha: 1df2cf6f6c935f4782eed27351fa18f276917a4d
+  framework: react
+  stack: tailwind-v3
+  maturity: early
+  tags:
+    - web-app
+    - tailwind
+    - nextjs
+    - typescript
+    - size:small
+    - use-case:web-app
+
+- repo: ariakit/ariakit
+  url: https://github.com/ariakit/ariakit
+  sha: 275e8b03a56f976f8dbbcdcbc18562dffbcd8a4f
+  framework: react
+  stack: vanilla-css
+  maturity: growing
+  tags:
+    - component-library
+    - headless
+    - typescript
+    - size:medium
+    - use-case:component-library
+
+- repo: tremorlabs/tremor
+  url: https://github.com/tremorlabs/tremor
+  sha: ca4d588f47820ff3d514d37fa4ee08a4222dec11
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - component-library
+    - tailwind
+    - charts
+    - typescript
+    - size:small
+    - use-case:component-library
+
+- repo: makeplane/plane
+  url: https://github.com/makeplane/plane
+  sha: 039d582fbb904ef0d1d3d6b6e1c9fef9696beb13
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - web-app
+    - tailwind
+    - monorepo
+    - typescript
+    - size:medium
+    - use-case:web-app
+
+- repo: nuxt/ui
+  url: https://github.com/nuxt/ui
+  sha: 09f9cd0142275911ab4aa515c94ef56a9e7639e5
+  framework: vue
+  stack: tailwind-v4
+  maturity: growing
+  tags:
+    - design-system
+    - tailwind
+    - nuxt
+    - typescript
+    - size:medium
+    - use-case:design-system
+
+- repo: element-plus/element-plus
+  url: https://github.com/element-plus/element-plus
+  sha: a8c6dbb6cfedbaac6f3b90136c0561669df25490
+  framework: vue
+  stack: css-modules
+  maturity: growing
+  tags:
+    - design-system
+    - scss
+    - typescript
+    - size:large
+    - use-case:design-system
+
+- repo: vuetifyjs/vuetify
+  url: https://github.com/vuetifyjs/vuetify
+  sha: 75f21754249f0abab21f396ccdc4528a60e896e5
+  framework: vue
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - material-design
+    - sass
+    - typescript
+    - size:large
+    - use-case:design-system
+
+- repo: kobaltedev/kobalte
+  url: https://github.com/kobaltedev/kobalte
+  sha: abd56134f40075258ad7f002502a20398fc3fc69
+  framework: solid
+  stack: css-modules
+  maturity: early
+  tags:
+    - component-library
+    - headless
+    - typescript
+    - size:small
+    - use-case:component-library
+
+- repo: corvudev/corvu
+  url: https://github.com/corvudev/corvu
+  sha: ff79bca96ead89a703637c0738191e20e1ffa67d
+  framework: solid
+  stack: tailwind-v3
+  maturity: early
+  tags:
+    - component-library
+    - headless
+    - tailwind
+    - typescript
+    - size:small
+    - use-case:component-library
+
+- repo: huntabyte/shadcn-svelte
+  url: https://github.com/huntabyte/shadcn-svelte
+  sha: 030db869898f3a5da0cdf1413e1d320b3354dd7d
+  framework: svelte
+  stack: tailwind-v4
+  maturity: growing
+  tags:
+    - design-system
+    - tailwind
+    - shadcn
+    - typescript
+    - size:small
+    - use-case:design-system
+
+- repo: skeletonlabs/skeleton
+  url: https://github.com/skeletonlabs/skeleton
+  sha: 1aa3a4479880b75074af081eac4dea3b579fda97
+  framework: svelte
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - design-system
+    - tailwind
+    - typescript
+    - size:small
+    - use-case:design-system
+
+- repo: tailwindlabs/tailwindcss-typography
+  url: https://github.com/tailwindlabs/tailwindcss-typography
+  sha: 543de4274390e90c4aab5d216729b46a3ba5541b
+  framework: agnostic
+  stack: vanilla-css
+  maturity: early
+  tags:
+    - framework-starter
+    - tailwind-plugin
+    - javascript
+    - size:small
+    - use-case:framework-starter

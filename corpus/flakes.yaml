@@ -1,0 +1,4 @@
+# Repos auto-removed from runs after non-deterministic failures.
+# Format: { repo, addedAt, reason }
+# Auto-populated by Task 5.5 (Phase 5 follow-up).
+flakes: []

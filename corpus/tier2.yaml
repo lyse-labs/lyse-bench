@@ -1,0 +1,573 @@
+# Tier-2 corpus — audited weekly by The Bench (v0.1 MVP).
+# 50 repos. Broader cast, lighter curation than tier-1.
+# Detects long-tail issues + drift across the OSS ecosystem.
+# Schema: BenchEntry from internal/bench/types.ts.
+# SHAs resolved 2026-05-23 via `git ls-remote ${url} HEAD`.
+
+# === Established React design systems ===
+- repo: ant-design/ant-design
+  url: https://github.com/ant-design/ant-design
+  sha: 1b0219f3375e27e232c726eeb9fee77bb04be828
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - design-system
+    - antd
+    - typescript
+
+- repo: adobe/react-spectrum
+  url: https://github.com/adobe/react-spectrum
+  sha: 6ffb87e7d6f9083b3566d881deea5296fb38aa28
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - headless
+    - react-aria
+    - typescript
+
+- repo: uber/baseweb
+  url: https://github.com/uber/baseweb
+  sha: 7e3beeda52948671ebc1921af231205088ce45cf
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - design-system
+    - styletron
+    - typescript
+
+- repo: palantir/blueprint
+  url: https://github.com/palantir/blueprint
+  sha: 1b391e326bffb89b71b12b896901a69e3fe86fb0
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - sass
+    - typescript
+
+- repo: Shopify/polaris
+  url: https://github.com/Shopify/polaris
+  sha: 2b1ea88625e0613853ca8577c9acd1980a90f382
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - shopify
+    - typescript
+
+- repo: carbon-design-system/carbon
+  url: https://github.com/carbon-design-system/carbon
+  sha: 486d06d81fa5a969499de61bcb6ddf8ef4f803cc
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - ibm
+    - scss
+    - typescript
+
+- repo: microsoft/fluentui
+  url: https://github.com/microsoft/fluentui
+  sha: aa727a4aac5088916fe7d22e11355ba4938951e2
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - design-system
+    - microsoft
+    - typescript
+
+- repo: tailwindlabs/headlessui
+  url: https://github.com/tailwindlabs/headlessui
+  sha: eea57cf46fd6767ed1059012f7073b88eb159fba
+  framework: react
+  stack: tailwind-v3
+  maturity: mature
+  tags:
+    - component-library
+    - headless
+    - typescript
+
+- repo: chakra-ui/zag
+  url: https://github.com/chakra-ui/zag
+  sha: 05a777924c230a2f109aaa9d4cb225ab764562e7
+  framework: agnostic
+  stack: vanilla-css
+  maturity: growing
+  tags:
+    - component-library
+    - state-machine
+    - headless
+    - typescript
+
+# === Tailwind ecosystem ===
+- repo: saadeghi/daisyui
+  url: https://github.com/saadeghi/daisyui
+  sha: d4923349f37525524ca152434fa406a274ae59b1
+  framework: agnostic
+  stack: tailwind-v3
+  maturity: mature
+  tags:
+    - component-library
+    - tailwind-plugin
+    - css
+
+- repo: themesberg/flowbite
+  url: https://github.com/themesberg/flowbite
+  sha: 752fb715d35d8dda44bfbe22707fb4135e959276
+  framework: agnostic
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - component-library
+    - tailwind
+    - javascript
+
+- repo: themesberg/flowbite-react
+  url: https://github.com/themesberg/flowbite-react
+  sha: 0f526aacd25cfa9029a9f3bc8e4160fe98afc9ec
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - component-library
+    - tailwind
+    - typescript
+
+- repo: themesberg/flowbite-svelte
+  url: https://github.com/themesberg/flowbite-svelte
+  sha: 3fbf1a186976dad6cbfbfb31979985829867319e
+  framework: svelte
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - component-library
+    - tailwind
+    - typescript
+
+- repo: tremorlabs/tremor
+  url: https://github.com/tremorlabs/tremor
+  sha: ca4d588f47820ff3d514d37fa4ee08a4222dec11
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - component-library
+    - charts
+    - typescript
+
+- repo: tabler/tabler
+  url: https://github.com/tabler/tabler
+  sha: d8bbb1e5a79ad6c63e3eed5a301b539a3128e9b8
+  framework: agnostic
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - dashboard
+    - sass
+
+- repo: sailboatui/sailboatui
+  url: https://github.com/sailboatui/sailboatui
+  sha: 8d0970f39193d8e852bf338298665556aa3163c8
+  framework: react
+  stack: tailwind-v3
+  maturity: early
+  tags:
+    - component-library
+    - tailwind
+    - typescript
+
+- repo: origin-space/originui
+  url: https://github.com/origin-space/originui
+  sha: 839aa2275cc8e1cef543eded62f6255854a76b87
+  framework: react
+  stack: tailwind-v4
+  maturity: early
+  tags:
+    - component-library
+    - tailwind
+    - shadcn
+    - typescript
+
+- repo: magicuidesign/magicui
+  url: https://github.com/magicuidesign/magicui
+  sha: 97fc1bc67f05b83f4a4e0f7727f912199167151e
+  framework: react
+  stack: tailwind-v3
+  maturity: early
+  tags:
+    - component-library
+    - tailwind
+    - animation
+    - typescript
+
+- repo: lobehub/lobe-ui
+  url: https://github.com/lobehub/lobe-ui
+  sha: c42152519d456a819d1359beb6df8ac9487cacdd
+  framework: react
+  stack: css-in-js
+  maturity: growing
+  tags:
+    - design-system
+    - antd
+    - typescript
+
+# === Vue + Nuxt ===
+- repo: primefaces/primevue
+  url: https://github.com/primefaces/primevue
+  sha: 0394f1e4157de7698048a255a38a9983bf689a34
+  framework: vue
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - prime
+    - typescript
+
+- repo: quasarframework/quasar
+  url: https://github.com/quasarframework/quasar
+  sha: 19dea7f9a6b61374415a29661bfe16d01a9c09b0
+  framework: vue
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - sass
+    - typescript
+
+- repo: vant-ui/vant
+  url: https://github.com/vant-ui/vant
+  sha: 3c125aa566a9dd5fd631dbd2f23e38ff68d2ba90
+  framework: vue
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - mobile
+    - less
+    - typescript
+
+- repo: arco-design/arco-design
+  url: https://github.com/arco-design/arco-design
+  sha: 79516eebaaf11f3459508f2579dd851e4e76a22f
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - bytedance
+    - less
+    - typescript
+
+- repo: baidu/amis
+  url: https://github.com/baidu/amis
+  sha: 43a33ee066990589f5891674e645c4c927761fe5
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - low-code
+    - typescript
+
+- repo: yamada-ui/yamada-ui
+  url: https://github.com/yamada-ui/yamada-ui
+  sha: 7c9a012e716d5614af20640fc6ee2852552e79ee
+  framework: react
+  stack: css-in-js
+  maturity: growing
+  tags:
+    - design-system
+    - emotion
+    - typescript
+
+- repo: primefaces/primereact
+  url: https://github.com/primefaces/primereact
+  sha: 200f65bcca1ec785750153ab74a37df228e7bc2a
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - design-system
+    - prime
+    - typescript
+
+# === Native / cross-framework ===
+- repo: tamagui/tamagui
+  url: https://github.com/tamagui/tamagui
+  sha: 6d859917ccd3fafe34537ce5edde70a8496a6897
+  framework: react
+  stack: css-in-js
+  maturity: growing
+  tags:
+    - design-system
+    - react-native
+    - typescript
+
+- repo: material-components/material-web
+  url: https://github.com/material-components/material-web
+  sha: 55576b4d76e3444552683c45c8b6fb12d6e9cd8c
+  framework: agnostic
+  stack: vanilla-css
+  maturity: mature
+  tags:
+    - design-system
+    - web-components
+    - lit
+    - typescript
+
+- repo: adobe/spectrum-web-components
+  url: https://github.com/adobe/spectrum-web-components
+  sha: 9f4e60e8533eba8b3edcd8c776a102057e67e393
+  framework: agnostic
+  stack: vanilla-css
+  maturity: mature
+  tags:
+    - design-system
+    - web-components
+    - lit
+    - typescript
+
+- repo: lit/lit
+  url: https://github.com/lit/lit
+  sha: 20afabd3c5bfd49fdcdf1b8518e05c7f99a46db6
+  framework: agnostic
+  stack: vanilla-css
+  maturity: mature
+  tags:
+    - framework-starter
+    - web-components
+    - typescript
+
+# === Notable web apps with strong DS surfaces ===
+- repo: excalidraw/excalidraw
+  url: https://github.com/excalidraw/excalidraw
+  sha: f6d85bc80fe328e8f472636eb0d541f7bb891aa0
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - web-app
+    - scss
+    - typescript
+
+- repo: tldraw/tldraw
+  url: https://github.com/tldraw/tldraw
+  sha: 84056a8f8a2efb04e9528a5d89705f20724555c9
+  framework: react
+  stack: css-modules
+  maturity: growing
+  tags:
+    - web-app
+    - canvas
+    - typescript
+
+- repo: hoppscotch/hoppscotch
+  url: https://github.com/hoppscotch/hoppscotch
+  sha: e3853bb76411f1fb8aed96ab78560eb869ee6567
+  framework: vue
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - web-app
+    - nuxt
+    - typescript
+
+- repo: toeverything/AffinE
+  url: https://github.com/toeverything/AffinE
+  sha: f2980503b4b4fa4d32b212f12b76be753a2a8326
+  framework: react
+  stack: css-in-js
+  maturity: growing
+  tags:
+    - web-app
+    - emotion
+    - typescript
+
+- repo: outline/outline
+  url: https://github.com/outline/outline
+  sha: a1b9f900c7e1a9f9e474964082d3f743b05fcbc1
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - web-app
+    - styled-components
+    - typescript
+
+- repo: RocketChat/Rocket.Chat
+  url: https://github.com/RocketChat/Rocket.Chat
+  sha: 9379af47f821220ed4a18c92ac37388971396512
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - web-app
+    - monorepo
+    - typescript
+
+- repo: mattermost/mattermost
+  url: https://github.com/mattermost/mattermost
+  sha: 7e75035cb6766afc8424c7ee299ef4184a249e92
+  framework: react
+  stack: css-modules
+  maturity: mature
+  tags:
+    - web-app
+    - scss
+    - typescript
+
+- repo: bluesky-social/social-app
+  url: https://github.com/bluesky-social/social-app
+  sha: bf83f165eef5c0ba36aca9f02d11e261bf29223d
+  framework: react
+  stack: css-in-js
+  maturity: growing
+  tags:
+    - web-app
+    - react-native
+    - typescript
+
+- repo: supabase/supabase
+  url: https://github.com/supabase/supabase
+  sha: 2c651ddabc306dd0785118126d57dd3176864fe9
+  framework: react
+  stack: tailwind-v3
+  maturity: mature
+  tags:
+    - web-app
+    - monorepo
+    - typescript
+
+- repo: appwrite/appwrite
+  url: https://github.com/appwrite/appwrite
+  sha: 8436fb017524dafa932c6f2da997835ec04d5c75
+  framework: svelte
+  stack: css-modules
+  maturity: mature
+  tags:
+    - web-app
+    - typescript
+
+- repo: dubinc/dub
+  url: https://github.com/dubinc/dub
+  sha: cd4a236c3f781450257b61cc4532dce68dd6f564
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - web-app
+    - tailwind
+    - nextjs
+    - typescript
+
+- repo: coollabsio/coolify
+  url: https://github.com/coollabsio/coolify
+  sha: 49656aa1edbe8aa6f7f7077dbf689cb1a08f05ee
+  framework: svelte
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - web-app
+    - sveltekit
+    - typescript
+
+- repo: umami-software/umami
+  url: https://github.com/umami-software/umami
+  sha: c0ea3aefbee7a3429ee2f824b06dc4a9dbe0b7e1
+  framework: react
+  stack: css-modules
+  maturity: growing
+  tags:
+    - web-app
+    - analytics
+    - typescript
+
+- repo: PostHog/posthog
+  url: https://github.com/PostHog/posthog
+  sha: f9e6041a5d98eb63981e50c5855e3474227af1d9
+  framework: react
+  stack: css-in-js
+  maturity: mature
+  tags:
+    - web-app
+    - scss
+    - typescript
+
+- repo: n8n-io/n8n
+  url: https://github.com/n8n-io/n8n
+  sha: f784205721ff517e4d0dffa35adc0da046c3a962
+  framework: vue
+  stack: css-modules
+  maturity: mature
+  tags:
+    - web-app
+    - monorepo
+    - typescript
+
+- repo: AmruthPillai/Reactive-Resume
+  url: https://github.com/AmruthPillai/Reactive-Resume
+  sha: 39e88dd365e441eea7fac11169db66a632a5dd0a
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - web-app
+    - nextjs
+    - shadcn
+    - typescript
+
+- repo: openstatusHQ/openstatus
+  url: https://github.com/openstatusHQ/openstatus
+  sha: 37b3314964268ec7daac199385cd7f8f3c610f07
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - web-app
+    - shadcn
+    - nextjs
+    - typescript
+
+- repo: medusajs/medusa
+  url: https://github.com/medusajs/medusa
+  sha: 493922656d180afe905385dbce8801aac725d1c3
+  framework: react
+  stack: tailwind-v3
+  maturity: mature
+  tags:
+    - web-app
+    - monorepo
+    - typescript
+
+# === Framework starters / docs systems ===
+- repo: withastro/starlight
+  url: https://github.com/withastro/starlight
+  sha: 2898bb7a816419f1934871892ae071dea17660f9
+  framework: agnostic
+  stack: css-modules
+  maturity: growing
+  tags:
+    - framework-starter
+    - astro
+    - typescript
+
+- repo: shuding/nextra
+  url: https://github.com/shuding/nextra
+  sha: 36ba79c2b13d20cbbe9394d251bb0fc8fb7ed724
+  framework: react
+  stack: tailwind-v3
+  maturity: growing
+  tags:
+    - framework-starter
+    - nextjs
+    - docs
+    - typescript
