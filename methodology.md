@@ -1,6 +1,6 @@
 # Bench methodology
 
-This document explains how The Bench audits repos, picks corpus entries, and reports results. It is the public contract for what a "green Bench week" means and how Lyse's launch gate is measured.
+This document explains how The Bench audits repos, picks corpus entries, and reports results. It is the public contract for what a "green Bench week" means and what daily/weekly quality looks like for Lyse.
 
 ## Audit invocation
 
@@ -43,14 +43,14 @@ Auto-populated when a repo fails non-deterministically twice in a row. Flagged r
 
 ## What a "green Bench week" looks like
 
-For Lyse v0.1.0 launch:
+The 4 criteria a Bench week must meet to be "green":
 
-1. **No determinism breaks**: every PR-merged scorer/rule change produces byte-identical results in tier-1 audits run twice (gate tracked at lyse-labs/lyse#125).
+1. **No determinism breaks**: every PR-merged scorer/rule change produces byte-identical results in tier-1 audits run twice (tracked at lyse-labs/lyse#125).
 2. **No unexplained regressions**: any repo whose score drops > 5 points week-over-week has a tracked PR explaining the cause (e.g., "we fixed FP X, score dropped because we now catch real drift").
 3. **Flake rate < 2%**: < 1 of 50 tier-2 repos in flakes.yaml at any moment.
 4. **FP rate < 5% per rule**: per the [v2 spec](https://github.com/lyse-labs/lyse/blob/main/internal/specs/2026-05-23-ai-readiness-score-v2-design.md) §4.2, published per release at `fp-rates/`.
 
-The launch gate requires **4 consecutive weeks** meeting all 4 criteria. The clock starts when the first nightly + weekly run land cleanly.
+These criteria define ongoing quality. **The 4-week-green gate is no longer a v0.1.0 launch precondition** (waived 2026-06-08); the Bench continues as a daily quality observatory and rule-promotion validator.
 
 ## Calibration corpus
 
