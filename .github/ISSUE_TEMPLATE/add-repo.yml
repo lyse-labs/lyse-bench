@@ -1,0 +1,47 @@
+name: Add a repo to the corpus
+description: Suggest an open-source design system / component library for the Bench corpus
+title: "[Corpus]: add "
+labels: ["corpus"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a corpus addition. Prefer opening a PR directly
+        against `corpus/tier1.yaml` or `corpus/tier2.yaml` if you can — see
+        [CONTRIBUTING.md](../../CONTRIBUTING.md). Use this template if you'd
+        rather propose it first.
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: "owner/repo, e.g. shadcn-ui/ui"
+      placeholder: "owner/repo"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: "https://github.com/owner/repo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Suggested tier
+      options:
+        - "tier-2 (broader, lighter curation)"
+        - "tier-1 (stratified — needs a clear framework/stack/maturity/size/use-case slot)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this repo?
+      description: Framework, styling stack, maturity, size, use case — whatever makes it a useful, distinct corpus entry.
+    validations:
+      required: true

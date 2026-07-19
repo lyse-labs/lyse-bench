@@ -5,8 +5,8 @@
 | Tier | Entries | Cadence |
 | --- | --- | --- |
 | tier-1 | 20 | nightly |
-| tier-2 | 50 | weekly |
-| **Total** | **70** | — |
+| tier-2 | 49 | weekly |
+| **Total** | **69** | — |
 
 The original v2 spec called for tier-1 = 50 and tier-2 = 200. The v0.1 MVP corpus
 is intentionally smaller so the Bench can ship and run reliably on launch
@@ -57,7 +57,7 @@ the expense of web-apps and starters; this is an explicit MVP trade-off.
 Looser — 50 repos selected for diversity rather than precision. Coverage spans:
 
 - **Established design systems**: Ant Design, MUI Spectrum, Adobe Spectrum, Carbon, FluentUI, Polaris, Blueprint, BaseWeb
-- **Tailwind ecosystem**: daisyUI, Flowbite (vanilla + react + svelte), Tremor, Tabler, originui, magicui, sailboatui
+- **Tailwind ecosystem**: daisyUI, Flowbite (vanilla + react + svelte), Tabler, originui, magicui, sailboatui
 - **Vue / Nuxt**: PrimeVue, PrimeReact, Quasar, Vant, Arco, Amis, Yamada
 - **Native / cross-framework**: Tamagui, Material Web, Spectrum Web Components, Lit
 - **Notable web apps**: Excalidraw, tldraw, Hoppscotch, AFFiNE, Outline, Rocket.Chat, Mattermost, Bluesky, Supabase, Appwrite, Dub, Coolify, Umami, PostHog, n8n, Reactive-Resume, OpenStatus, Medusa

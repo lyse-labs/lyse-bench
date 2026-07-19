@@ -1,0 +1,24 @@
+name: Dispute a Health Score
+description: You think a Bench result for your (or another) repo is wrong
+title: "[Dispute]: "
+labels: ["dispute"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This repo only stores results — it doesn't compute them.** The
+        rule engine and scoring logic live in
+        [`lyse-labs/lyse`](https://github.com/lyse-labs/lyse). Please open
+        your dispute there instead:
+        https://github.com/lyse-labs/lyse/issues/new
+
+        This template is kept here as a pointer in case you landed on this
+        repo first. Issues filed here will be redirected.
+
+  - type: input
+    id: repo
+    attributes:
+      label: Which corpus repo, and which report?
+      placeholder: "owner/repo — reports/weekly/2026-Wxx.md"
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Lyse the audit engine
+    url: https://github.com/lyse-labs/lyse
+    about: The rule engine, CLI, and scoring logic live in this separate repo. Score disputes and engine bugs belong there, not here.
+  - name: Documentation
+    url: https://github.com/lyse-labs/lyse-bench/blob/main/methodology.md
+    about: Read the methodology before filing — many questions are answered there.

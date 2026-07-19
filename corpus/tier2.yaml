@@ -1,5 +1,5 @@
 # Tier-2 corpus — audited weekly by The Bench (v0.1 MVP).
-# 50 repos. Broader cast, lighter curation than tier-1.
+# 49 repos. Broader cast, lighter curation than tier-1.
 # Detects long-tail issues + drift across the OSS ecosystem.
 # Schema: BenchEntry from internal/bench/types.ts.
 # SHAs resolved 2026-05-23 via `git ls-remote ${url} HEAD`.
@@ -150,17 +150,6 @@
   tags:
     - component-library
     - tailwind
-    - typescript
-
-- repo: tremorlabs/tremor
-  url: https://github.com/tremorlabs/tremor
-  sha: ca4d588f47820ff3d514d37fa4ee08a4222dec11
-  framework: react
-  stack: tailwind-v3
-  maturity: growing
-  tags:
-    - component-library
-    - charts
     - typescript
 
 - repo: tabler/tabler
