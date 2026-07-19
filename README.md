@@ -12,7 +12,7 @@ This repo is **read-only** from the public's perspective: the runners + audit lo
 ## What's here
 
 ```
-corpus/                          # The 70-repo corpus audited by The Bench
+corpus/                          # The 69-repo corpus audited by The Bench
   tier1.yaml                     # 20 stratified repos audited nightly
   tier2.yaml                     # 50 broader-seed repos audited weekly
   flakes.yaml                    # Auto-blacklisted non-deterministic repos
